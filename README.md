@@ -40,7 +40,11 @@
    - 예측 결과 분석 및 성능 비교 후 최종 결론 도출  
 
 ---
-
+| 팀명 | 팀원 | Score | Rank | 보고서 |
+|------|------|-------|------|----------------|
+| BMW | 김미소, 방가연, 정지원 | TBD | TBD | [보고서 확인](./forecasting-sticker-sales/BMW-report.pptx) |
+| 빙규 | 김동규, 조윤빈 | TBD | TBD | [보고서 확인](./forecasting-sticker-sales/Bingyu-report.pptx) |
+---
 ## 📂 레포지토리 구조  
 ```plaintext
 📂 kaggle-projects
