@@ -7,9 +7,11 @@
 - **목표**: 다양한 국가들의 가상 매장에서 Kaggle 브랜드 스티커 판매량을 예측  
 - **진행 기간**: 2025.01.01 ~ 2025.01.31  
 - **사용 기술**:  
-  ➤ RandomForest 🏆  <br>
+  ➤ RandomForest 🌳🦌  <br>
+  ➤ XGBoost 🔥  <br>
   ➤ Time Series Forecasting 📈  <br>
   ➤ LightGBM 🌟  <br>
+  ➤ Optuna 🍣  <br>
   ➤ Feature Engineering 🔧  
 
 ---
@@ -78,9 +80,10 @@
 <details>
   <summary><b>🛠 모델 개발 및 학습 과정 (클릭해서 열기)</b></summary>
 
-  - **사용한 모델**: RandomForest, LightGBM, XGBoost  
+  - **사용한 모델**: RandomForest, XGBoost, LightGBM 
   - **하이퍼파라미터 튜닝**:
-    - RandomForest: `n_estimators=100, random_state=42`  
+    - RandomForest: `n_estimators=100, random_state=42`
+    - Optuna 
     - LightGBM: `learning_rate=0.05, max_depth=7`  
   - **교차 검증 전략**: TimeSeriesSplit 적용  
 
@@ -88,20 +91,20 @@
 
 ---
 
-## 📈 결과 및 성능 비교 (🏆 수요일 공개 예정)
+## 📈 결과 및 성능 비교 (🏆 최종 결과 발표)
 <details>
   <summary><b>📢 최종 결과 (클릭해서 확인)</b></summary>
 
-  🚨 **현재 결과는 공개되지 않았습니다.**  
-  👉 **최종 수상자 발표: 2025년 2월 7일 (수요일 예정)**
+  🎉 **최종 수상자 발표!** 🎉  
 
-  | Rank | Team Name | Score |
-  |------|----------|-------|
-  | 🏆 1st | (수요일 발표) | (수요일 발표) |
-  | 🥈 2nd | (수요일 발표) | (수요일 발표) |
-  | 🥉 3rd | (수요일 발표) | (수요일 발표) |
+  | Rank  | Team Name       | Model                                      | Score   |
+  |-------|---------------|------------------------------------------|---------|
+  | 🏆 1st  | **SmileKim**  | `RandomForestRegressor(n_estimators=100, random_state=42)` | **0.18079** |
+  | 🥈 2nd  | **y10.05b**  | `XGBRegressor + Optuna (Hyperparameter Tuning)` | **0.38940** |
+  | 🥉 3rd  | **K2yoon(omit)** | `🥹 LightGBM + Feature 🥹`                    | **0.85486** |
 
 </details>
+
 
 ---
 
