@@ -19,10 +19,12 @@
     ➤ Feature Engineering
     
   - **팀원 및 성적**:
-| 팀명 | 팀원 | Score | Rank | 보고서 |
-|------|------|-------|------|----------------|
-| BMW | 김미소, 방가연, 정지원 | TBD | TBD | [보고서 확인](./forecasting-sticker-sales/BMW-report.pptx) |
-| 빙규 | 김동규, 조윤빈 | TBD | TBD | [보고서 확인](./forecasting-sticker-sales/Bingyu-report.pptx) |
+
+  | 팀명  | 팀원                 | Score | Rank | 보고서 |
+  |------|----------------|-------|------|----------------|
+  | BMW  | 김미소, 방가연, 정지원 | TBD   | TBD  | [보고서 확인](./forecasting-sticker-sales/BMW-report.pptx) |
+  | 빙규  | 김동규, 조윤빈        | TBD   | TBD  | [보고서 확인](./forecasting-sticker-sales/Bingyu-report.pptx) |
+
 ---
   - **🔗 [프로젝트 상세 보기](./forecasting-sticker-sales/README.md)**  
 
