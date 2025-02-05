@@ -12,8 +12,10 @@
   - **진행 기간**: 2025.01.01 ~ 2025.01.31  
   - **주요 기술**: <br> 
     ➤ RandomForest  <br>
+    ➤ XGBoost  <br>
     ➤ Time Series Forecasting  <br>
     ➤ LightGBM  <br>
+    ➤ Obtuna  <br>
     ➤ Feature Engineering  
   - **🔗 [프로젝트 상세 보기](./forecasting-sticker-sales/README.md)**  
 
